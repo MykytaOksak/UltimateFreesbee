@@ -3,7 +3,7 @@ header{
   background: rgb(2,0,36);
   background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(255,125,209,1) 0%, rgba(74,255,204,1) 100%);
   margin-bottom: 30px;
-  height: 100px;
+  overflow: hidden;
 }
 h1{
   font-size: 30px;
@@ -18,8 +18,7 @@ nav a{
   font-weight: bold;
   display: inline-block;
   width: 170px;
-  margin: 10px 31px;
-  padding: 3px;
+  margin: 10px 4%;
   background-color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 7px;
@@ -29,19 +28,17 @@ nav a{
   text-transform: uppercase;
   text-decoration: none;
   color: #0A0E10;
+  transition: all .1s linear;
 }
 nav a:hover{
-  transition-property: width, line-height;
-  width: 200px;
-  line-height: 50px;
-  transition: .1s;
+  transform: translateY(3px);
 }
 .active{
   background-color: rgba(255, 255, 255, 1);
 }
 .right{
   display: inline-block;
-  width: 72%;
+  width: 71%;
   padding: 1.5%;
 }
 .left{
