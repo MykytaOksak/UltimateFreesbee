@@ -1,0 +1,83 @@
+header{
+  padding: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(255,125,209,1) 0%, rgba(74,255,204,1) 100%);
+  margin-bottom: 30px;
+  height: 100px;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+nav a{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  width: 170px;
+  margin: 10px 31px;
+  padding: 3px;
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 7px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0A0E10;
+}
+nav a:hover{
+  transition-property: width, line-height;
+  width: 200px;
+  line-height: 50px;
+  transition: .1s;
+}
+.active{
+  background-color: rgba(255, 255, 255, 1);
+}
+.right{
+  display: inline-block;
+  width: 72%;
+  padding: 1.5%;
+}
+.left{
+  height: inherit;
+  display: inline-block;
+  width: 24.9%;
+  border-right: solid lightgrey 1px;
+}
+h2{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin: 0;
+}
+p{
+  margin: 1.5% 0;
+}
+section{
+  float: right;
+
+}
+img{
+  width: 76%;
+  display: block;
+  margin: 5% auto;
+  border: 6px;
+}
+img:hover{
+  opacity: 0.5;
+}
+main{
+  height: inherit;
+}
+html, body {
+  height: 100%;
+  font-family: Calibri;
+  font-size: 16px;
+  padding: 0;
+  margin: 5px;
+}
