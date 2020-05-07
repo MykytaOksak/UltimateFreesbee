@@ -5,7 +5,7 @@ header{
   margin-bottom: 30px;
   padding-top: 10px;
   overflow: hidden;
-  height: 100px;
+  height: 12.5%;
   display: table;
   width: 100%;
 }
@@ -89,5 +89,6 @@ html, body {
   font-family: Calibri, Arial;
   font-size: 16px;
   padding: 0;
-  margin: 5px;
+  margin: 0px;
+
 }
