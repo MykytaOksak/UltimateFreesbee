@@ -1,8 +1,9 @@
 header{
-  padding: 10px;
+  padding: 0px;
   background: rgb(2,0,36);
   background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(255,125,209,1) 0%, rgba(74,255,204,1) 100%);
   margin-bottom: 30px;
+  padding-top: 10px;
   overflow: hidden;
 }
 h1{
