@@ -1,1 +1,1 @@
-# month1CssPractice
+# html, css, js practice
